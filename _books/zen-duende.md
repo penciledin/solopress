@@ -3,7 +3,7 @@ layout: books
 title: Zen Duende
 author: Glenna Luschei and Eric Greinke
 description: In these enigmatic, often humorous poems, two elder poets explore the meaning of life and death, memory and attachment.
-img: 3.jpg
+img: /img/3.jpg
 price: $5.00
 ---
 Presa Press, 2016.

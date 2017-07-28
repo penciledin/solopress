@@ -1,9 +1,9 @@
 ---
 layout: books
-title: Solo Novo 4: Special 50th Anniversary Edition
+title: Solo Novo 4 | Special 50th Anniversary Edition
 author: various authors
 description: Anthology poetry collection on the theme of memory.
-img: 1.jpg
+img: /img/1.jpg
 price: $8.00
 ---
 

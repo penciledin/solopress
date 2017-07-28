@@ -3,7 +3,7 @@ layout: books
 title: Leaving It All Behind, by Glenna Luschei
 author: Glenna Luschei
 description:
-img: 1.jpg
+img: /img/1.jpg
 price: $5.00
 ---
 Presa Press, 2011.
