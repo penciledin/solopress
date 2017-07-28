@@ -1,0 +1,11 @@
+---
+layout: books
+title: Zen Duende
+author: Glenna Luschei and Eric Greinke
+description: In these enigmatic, often humorous poems, two elder poets explore the meaning of life and death, memory and attachment.
+img: 3.jpg
+price: $5.00
+---
+Presa Press, 2016.
+
+This book is a product of nearly three years of daily collaboration by Glenna Luschei and Eric Greinke. They began their exchange following the deaths of their longtime friends, poets, Hugh Fox and Harry Smith with each writing one line a day. The collection is presented in five contrasting sections that range from long poems to one-liners with titles that bear more than a passing resemblance to Zen koans. In these enigmatic, often humorous poems, two elder poets explore the meaning of life and death, memory and attachment.
