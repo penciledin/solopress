@@ -1,5 +1,5 @@
 ---
-layout: books
+layout: book
 title: Witch Dance – New and Collected Poems
 author: Glenna Luschei
 description: Glenna Luschei responds to the death of her husband Bill with a special kind of poetic magic.

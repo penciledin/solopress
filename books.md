@@ -17,8 +17,7 @@ permalink: /books/
         {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ project.price }}</p>
         </span>
         </a>
     </div>
@@ -36,7 +35,7 @@ permalink: /books/
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ project.price }}</p>
         </span>
         </a>
     </div>

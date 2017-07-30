@@ -1,12 +1,15 @@
 ---
-layout: books
-title: Leaving It All Behind, by Glenna Luschei
+layout: book
+title: Leaving It All Behind
 author: Glenna Luschei
 description:
-img: /img/1.jpg
+img: /img/books/leaving-it-all-behind_1.jpg
 price: $5.00
+press: Presa Press
+year: 2011
+paypal-button:
 ---
-Presa Press, 2011.
+<img src="{{ site.baseurl }}/img/books/leaving-it-all-behind_1.jpg" alt="" width="700" />
 
 In this collection, Luschei’s poems somehow keep their feet in two worlds at once.  They are constructed of both equal parts of both expressionism and impressionism.  Her special ability is to synthesize the external and internal worlds.
 
