@@ -195,9 +195,7 @@ clear: both;
 }
 .project {
 width: 33.33%;
-height: 250px;
 float: left;
-vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
 }
@@ -273,4 +271,11 @@ color: $caption_color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
+}
+
+// Penciled In
+.book {
+  img {
+    max-width: 100%;
+  }
 }
