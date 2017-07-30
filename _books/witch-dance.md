@@ -15,5 +15,5 @@ Glenna Luschei responds to the death of her husband Bill with a special kind of 
 <div class="images">
 <img src="{{ site.baseurl }}/img/books/witch-dance_1.jpg" width="700" alt="" />
 <img src="{{ site.baseurl }}/img/books/witch-dance_2.jpg" width="700" alt="" />
-<img src="{{ site.baseurl }}/img/books/witch-dance_2.jpg" width="700" alt="" />
+<img src="{{ site.baseurl }}/img/books/witch-dance_3.jpg" width="700" alt="" />
 </div>
