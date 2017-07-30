@@ -1,5 +1,3 @@
-
-
 Solo Press has been publishing poetry since 1966.  Its first magazine, *Café Solo*, was released by founder and publisher, Glenna Luschei in 1969.  Since then, Solo has gone on to publish four literary magazine series:  *Café Solo*, *Solo*, *Solo Café*, and *Solo Novo*.
 
 <!-- more -->
