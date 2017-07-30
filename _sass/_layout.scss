@@ -274,8 +274,21 @@ font-size: $caption_font_size;
 }
 
 // Penciled In
-.book {
+.project {
   img {
     max-width: 100%;
   }
+  img.thumbnail {
+    height: auto;
+  }
+  &:nth-of-type(4n) {
+    clear: left;
+  }
+}
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 19px;
+}
+h1, h2, h3 {
+  font-family: 'Bree Serif', serif;
 }
