@@ -12,5 +12,5 @@ paypal-button:
 
 This book is a product of nearly three years of daily collaboration by Glenna Luschei and Eric Greinke. They began their exchange following the deaths of their longtime friends, poets, Hugh Fox and Harry Smith with each writing one line a day. The collection is presented in five contrasting sections that range from long poems to one-liners with titles that bear more than a passing resemblance to Zen koans. In these enigmatic, often humorous poems, two elder poets explore the meaning of life and death, memory and attachment.
 
-<img src="{{ site.baseurl }}/img/books/zen-duende_1.jpg" alt="" />
+<img src="{{ site.baseurl }}/img/books/zen-duende_1.jpg" alt="" width="700" />
 <img src="{{ site.baseurl }}/img/books/zen-duende_2.jpg" alt="" width="700" />
