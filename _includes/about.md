@@ -9,3 +9,7 @@ Solo launched the *Solo* journal series in 1996. Jackson Wheeler and David Olive
 *Solo Novo: Wall Scrawls* launched in 2011.  *Solo Novo: 122 Days* was released in July, 2012.
 
 Solo has a history of publishing chapbooks featuring poets who have already published in a Solo journal.  Solo poets should submit a query letter and send a manuscript only on request.
+
+<hr />
+
+This site has been built by [Benjamin Daniel Lawless](http://benjaminlawless.com) using Jekyll, based on the Folio theme.
