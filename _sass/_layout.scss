@@ -285,6 +285,11 @@ font-size: $caption_font_size;
     clear: left;
   }
 }
+.book {
+  img {
+    max-width: 100%;
+  }
+}
 body {
   font-family: 'EB Garamond', serif;
   font-size: 19px;
