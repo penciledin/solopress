@@ -14,8 +14,9 @@ markdown: kramdown
 highlighter: rouge
 
 # Pagination
+plugins: [jekyll-paginate]
 paginate: 15
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 
 
 collections:
@@ -28,3 +29,6 @@ collections:
   books:
     output: true
     permalink: /books/:path/
+  posts:
+    output: true
+    permalink: /news/:path/
