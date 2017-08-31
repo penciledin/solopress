@@ -11,23 +11,16 @@ layout: default
 
 <p>Solo Press has been publishing poetry since 1966.  Its first magazine, <em>Café Solo</em>, was released by founder and publisher, Glenna Luschei in 1969.  Since then, Solo has gone on to publish four literary magazine series:  <em>Café Solo</em>, <em>Solo</em>, <em>Solo Café</em>, and <em>Solo Novo</em>. </p>
 
-
+<h2>Books</h2>
 {% include project-list.html %}
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
 
 <ul class="post-list">
-    {% for post in paginator.posts %}
+    {% for news in paginator.news %}
       <li>
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
+        <p class="post-meta">{{ news.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ news.description }}</p>
         <br/>
         <hr/>
       </li>
