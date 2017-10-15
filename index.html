@@ -1,28 +1,5 @@
 ---
-layout: default
+layout: home
+title: Solo Press | Publisher of fine books and magazines
+body-class: home
 ---
-
-<div class="header-bar">
-  <img src="{{ site.baseurl }}/img/logo-solopress.svg" alt="{{ site.title }}" />
-  <br/>
-  <hr>
-  <br/>
-</div>
-
-<p>Solo Press has been publishing poetry since 1966.  Its first magazine, <em>Café Solo</em>, was released by founder and publisher, Glenna Luschei in 1969.  Since then, Solo has gone on to publish four literary magazine series:  <em>Café Solo</em>, <em>Solo</em>, <em>Solo Café</em>, and <em>Solo Novo</em>. </p>
-
-<h2>Books</h2>
-{% include project-list.html %}
-
-
-<ul class="post-list">
-    {% for news in paginator.news %}
-      <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ news.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ news.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
-</ul>
