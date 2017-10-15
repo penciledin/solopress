@@ -1,0 +1,19 @@
+body.news-page, body.page-home-news, body.page-news {
+  background-color: $background-color;
+  background-image: none;
+  #main h1 a,
+  #main h2 a {
+    color: $text-color;
+  }
+  .post-meta {
+    font-size: 0.8em;
+    line-height: 2em;
+    padding-top: 8px;
+  }
+  h1,
+  h2,
+  p {
+    color: $text-color;
+    letter-spacing: 0;
+  }
+}

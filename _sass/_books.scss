@@ -1,0 +1,28 @@
+.books {
+  .book a.include-link { color:#999 !important; pointer-events:none !important; cursor:default; }
+}
+
+.page-books, .page-home-book {
+  background: $background-color;
+  color: $text-color;
+  a.include-link {
+    h1, h2 {
+      color: $text-color;
+    }
+  }
+}
+
+.page-books {
+  .book-details {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.perfundo__content {
+  background: $background-color-dark;
+  h1 {
+    color: $text-color-dark;
+  }
+}

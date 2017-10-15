@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<section class="discuss">
+    <div class="row">
+        <h1>BOOKS</h1>
+    </div>
+</section>
+
+{% for book in site.books reversed %}
+<section class="book">
+	<div class="row">
+		<div class="pure-g">
+			<div class="pure-u-1 pure-u-md-1-2 info">
+				<a href="{{ book.url }}" class="block include-link">
+					<h1>{{ book.title }}</h1>
+					<h2>by {{ book.author }}</h2>
+				</a>
+				<div class="details">
+          <p class="price">{{ book.price }}<br />
+          <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
+          <p>{% if book.pages %}{{ book.pages }}, {% endif %}Published {{ book.date | date: "%B %Y" }}</p>
+        </div>
+        {{ book.description | markdownify }}
+        <p class="learnmore"><a href="{{ book.id }}">Learn more <span class="fa fa-chevron-circle-right"></span></a></p>
+      </div>
+
+      <div class="perfundo">
+        <div id="purchase-{{ book.id | slugify }}" class="perfundo__overlay bounceIn">
+          <div class="perfundo__content perfundo__html pure-g">
+            <h1 class="pure-u-1">Purchase <em>{{ book.title }}</em></h1>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <p>{{ book.price }}</p>
+              {% if book.paypal %}<p class="button button-paypal"><a href="{{ book.paypal }}">Buy now via PayPal <span class="fa fa-chevron-circle-right"></span></a></p>{% endif %}
+
+              <!-- <p>
+                <input id="email" type="text" class="input-text" placeholder="Pounce username" />
+                <button class="button" href="javascript:jmpPurchase({{ book.title }})">Buy now via Pounce</a></button>
+              </p> -->
+
+              {% if book.amazon %}<p class="button button-amazon"><a href="{{ book.amazon }}">Learn more and purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a></p>{% endif %}
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <img class="pure-img" src="{{ book.cover-img }}" alt="" />
+            </div>
+          </div>
+          <a href="#" class="perfundo__close perfundo__control">Close</a>
+        </div>
+      </div>
+
+			<div class="pure-u-1 pure-u-md-1-2 cover">
+        <a href="{{ book.url }}">
+  				<img class="pure-img" src="{{ book.cover-img }}" alt="" />
+        </a>
+			</div>
+		</div>
+	</div>
+</section>
+{% endfor %}
+
+</div>
+
+{% include 3-footer.inc %}
