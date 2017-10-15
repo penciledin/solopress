@@ -20,7 +20,7 @@ layout: default
 				<div class="details">
           <p class="price">{{ book.price }}<br />
           <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
-          <p>{% if book.pages %}{{ book.pages }}, {% endif %}Published {{ book.date | date: "%B %Y" }}</p>
+          <p>{% if book.pages %}{{ book.pages }}, <br />{% endif %}Published {{ book.date | date: "%Y" }}</p>
         </div>
         {{ book.description | markdownify }}
         <p class="learnmore"><a href="{{ book.id }}">Learn more <span class="fa fa-chevron-circle-right"></span></a></p>
@@ -60,5 +60,3 @@ layout: default
 {% endfor %}
 
 </div>
-
-{% include 3-footer.inc %}

@@ -6,6 +6,8 @@ body-class: witch-dance
 description: Glenna Luschei responds to the death of her husband Bill with a special kind of poetic magic.
 cover-img: /img/books/witch-dance_1.jpg
 price: $5.00
+date: 2010-01-26 12:00
+paypal: http://amzn.to/2yNM3Pq
 ---
 Presa Press, 2010
 

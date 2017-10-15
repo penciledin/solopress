@@ -10,7 +10,7 @@ layout: default
 				<div class="details">
           <p class="price">{{ page.price }}<br />
           <a class="perfundo__link button" href="#purchase-{{ page.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
-          <p>{% if page.pages %}{{ page.pages }}, {% endif %}Published {{ page.date | date: "%B %Y" }}</p>
+          <p>{% if page.pages %}{{ page.pages }}, <br />{% endif %}Published {{ page.date | date: "%Y" }}</p>
         </div>
         <p>{{ page.description | markdownify }}</p>
       </div>

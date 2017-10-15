@@ -8,7 +8,7 @@ description: |
 cover-img: /img/books/zen-duende_1.jpg
 price: $5.00
 press: Presa Press
-year: 2016-12-01 10:00
+date: 2016-12-01 10:00
 paypal:
 amazon: http://amzn.to/2wMhIfr
 pages: 46 pages

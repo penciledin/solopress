@@ -32,8 +32,8 @@ layout: default
   				</a>
   				<div class="details">
             <p class="price">{{ book.price }}<br />
-            <a class="perfundo__link button" href="#purchase-{{ book.id }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
-            <p>{{ book.pages }}, Published {{ book.date | date: "%B %Y" }}</p>
+            <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
+            <p>{% if book.pages %}{{ book.pages }}, <br />{% endif %}Published {{ book.date | date: "%Y" }}</p>
           </div>
           <p>{{ book.description }}</p>
           <p class="learnmore"><a href="{{ book.id }}">Learn more <span class="fa fa-chevron-circle-right"></span></a></p>
@@ -41,7 +41,7 @@ layout: default
       </div>
 
       <div class="perfundo">
-        <div id="purchase-{{ book.id }}" class="perfundo__overlay bounceIn">
+        <div id="purchase-{{ book.id | slugify }}" class="perfundo__overlay bounceIn">
           <div class="perfundo__content perfundo__html pure-g">
             <h1 class="pure-u-1">Purchase <em>{{ book.title }}</em></h1>
             <div class="pure-u-1 pure-u-md-1-2">
