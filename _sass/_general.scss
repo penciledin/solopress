@@ -60,6 +60,7 @@ body { color:$background-color; }
 @media only screen and (max-width:480px) {
     #menu {
       position: relative;
+      margin-bottom: 60px;
 
       .pure-menu {
         position:relative;
@@ -76,11 +77,15 @@ body { color:$background-color; }
 
             &:first-child {
               margin-left: 0;
+              padding-left: 0;
             }
           }
         }
-
+        .pure-menu-heading {
+          height: 70px;
+        }
       }
+
     }
     #menu .pure-menu-heading, #menu .logo, #menu .pure-menu a.pure-menu-heading { position:relative; margin:0 auto; padding:0 !important; display:block; left:0; }
     #main section:first-child { padding-top:0px; }
