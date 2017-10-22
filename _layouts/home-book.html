@@ -18,8 +18,12 @@ layout: default
 					<h2>by {{ book.author }}</h2>
 				</a>
 				<div class="details">
-          <p class="price">{{ book.price }}<br />
-          <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
+          {% if book.price %}
+            <p class="price">{{ book.price }}<br />
+            <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
+          {% else if book.amazon %}<p class="price"><a href="{{ book.amazon }}">Purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a></p>
+          {% endif %}
+
           <p>{% if book.pages %}{{ book.pages }}, <br />{% endif %}Published {{ book.date | date: "%Y" }}</p>
         </div>
         {{ book.description | markdownify }}
