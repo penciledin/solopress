@@ -24,7 +24,9 @@ layout: default
           {% else if book.amazon %}<p class="price"><a href="{{ book.amazon }}">Purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a></p>
           {% endif %}
 
-          <p>{% if book.pages %}{{ book.pages }}, <br />{% endif %}Published {{ book.date | date: "%Y" }}</p>
+          <p>{% if book.pages %}{{ book.pages }}
+            <br />{% endif %}Published {{ book.date | date: "%Y" }}
+            {% if book.press %}<br />{{ book.press }}{% endif %}</p>
         </div>
         {{ book.description | markdownify }}
         <p class="learnmore"><a href="{{ book.id }}">Learn more <span class="fa fa-chevron-circle-right"></span></a></p>
