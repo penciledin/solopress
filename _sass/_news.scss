@@ -16,4 +16,7 @@ body.news-page, body.page-home-news, body.page-news {
     color: $text-color;
     letter-spacing: 0;
   }
+  img {
+    max-width: 100%;
+  }
 }
