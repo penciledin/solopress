@@ -16,7 +16,7 @@ pages: 46 pages
 This book is a product of nearly three years of daily collaboration by Glenna Luschei and Eric Greinke. They began their exchange following the deaths of their longtime friends, poets, Hugh Fox and Harry Smith with each writing one line a day. The collection is presented in five contrasting sections that range from long poems to one-liners with titles that bear more than a passing resemblance to Zen koans.
 
 ## Time and the Dream
-*By Glenna Luschei*
+*By Eric Greinke and Glenna Luschei*
 
 We are at one with the other stars  
 especially the ones about to explode.  
@@ -32,5 +32,3 @@ It is time for us to hold hands, imbibe the drug.
 It is time for warm blood to flow between us.  
 When we awake it will be on another planet.  
 There we’ll breathe the air of dreams.
-
-<img src="{{ site.baseurl }}/img/books/zen-duende_2.jpg" alt="" />
