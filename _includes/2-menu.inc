@@ -7,6 +7,7 @@
             <li><a href="/news/">News</a></li>
             <li><a href="/books/">Books</a></li>
             <li><a href="/about/">About</a></li>
+            <li><a href="https://www.facebook.com/solopressSLO/">Facebook</a></li>
         </ul>
     </div>
 </div>
