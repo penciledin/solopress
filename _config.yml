@@ -26,3 +26,7 @@ collections:
   news:
     output: true
     permalink: /news/:path/
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-paginate
