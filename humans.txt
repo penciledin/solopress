@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Benjamin Daniel Lawless 
+    	-- Owner, Graphic Designer, Web Developer 
+    	-- @penciledin
+
+# THANKS
+
+    -- Jeanie Greensfelder and Ivan BrownOtter for being the first authors to agree to let me sell their work on my site
+    
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    typekit.com: Brandon Grotesque

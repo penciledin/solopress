@@ -1,0 +1,32 @@
+# Site settings
+title: Solo Press
+email: ben@penciledin.com
+description: > # this means to ignore newlines until "baseurl:"
+  Independent publisher on California’s central coast.
+baseurl:  # the subpath of your site, e.g. /blog/
+url: http://solopress.org # the base hostname & protocol for your site
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+excerpt_separator: <!--more-->
+
+collections:
+  books:
+    output: true
+    permalink: /books/:path/
+  news:
+    output: true
+    permalink: /news/:path/
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-paginate

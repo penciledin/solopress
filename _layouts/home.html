@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<section class="hero">
+    <div class="row">
+        <div class="details">
+            <p>Solo Press has been publishing poetry since 1966.</p>
+            <p><a href="/about/">Learn more <span class="fa fa-chevron-circle-right"></span></a></p>
+        </div>
+    </div>
+</section>
+
+<section class="discuss">
+    <div class="row">
+          <h1>LATEST BOOKS</h1>
+          <h3><a href="/books/">See all books <span class="fa fa-chevron-circle-right"></span></a></h3>
+        </a>
+    </div>
+</section>
+<section class="book">
+	<div class="row">
+    <div class="pure-g">
+
+{% for book in site.books reversed  %}
+			<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 info">
+        <div class="l-box">
+  				<a href="{{ book.id }}" class="block include-link">
+            <img class="pure-img" src="{{ book.cover-img }}" alt="" />
+  					<h1>{{ book.title }}</h1>
+  					<h2>by {{ book.author }}</h2>
+  				</a>
+  				<div class="details">
+            {% if book.price %}
+              <p class="price">{{ book.price }}<br />
+              <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
+            {% else if book.amazon %}<p class="price"><a href="{{ book.amazon }}">Purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a></p>
+            {% endif %}
+            <p>{% if book.pages %}{{ book.pages }}, <br />{% endif %}Published {{ book.date | date: "%Y" }}</p>
+          </div>
+          <p>{{ book.description }}</p>
+          <p class="learnmore"><a href="{{ book.id }}">Learn more <span class="fa fa-chevron-circle-right"></span></a></p>
+        </div>
+      </div>
+
+      <div class="perfundo">
+        <div id="purchase-{{ book.id | slugify }}" class="perfundo__overlay bounceIn">
+          <div class="perfundo__content perfundo__html pure-g">
+            <h1 class="pure-u-1">Purchase <em>{{ book.title }}</em></h1>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <p>{{ book.price }}</p>
+              {% if book.paypal %}<p class="button button-paypal"><a href="{{ book.paypal }}">Buy now via PayPal</a></p>{% endif %}
+
+              <!-- <p>
+                <input id="email" type="text" class="input-text" placeholder="Pounce username" />
+                <button class="button" href="javascript:jmpPurchase({{ book.title }})">Buy now via Pounce</a></button>
+              </p> -->
+
+              {% if book.amazon %}<p class="button button-amazon"><a href="{{ book.amazon }}">Learn more and purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a></p>{% endif %}
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2">
+              <img class="pure-img" src="{{ book.cover-img }}" alt="" />
+            </div>
+          </div>
+          <a href="#" class="perfundo__close perfundo__control">Close</a>
+        </div>
+      </div>
+
+
+{% endfor %}
+    </div>
+  </div>
+
+</section>
+
+
+</div>
+
+{% include 3-footer.inc %}
