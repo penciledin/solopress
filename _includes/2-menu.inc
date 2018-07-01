@@ -4,6 +4,7 @@
           <img class="logo" src="{{ site.url }}/img/logo.png" width="100" alt="" />
         </a>
         <ul>
+            <li><a href="/toast/">Toast</a></li>
             <li><a href="/news/">News</a></li>
             <li><a href="/books/">Books</a></li>
             <li><a href="/about/">About</a></li>
