@@ -1,3 +1,17 @@
 .toast-list {
   margin-bottom: 30px;
 }
+.toast-input {
+  border: 1px solid $accent-color;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-family: $font-stack;
+}
+.button {
+  margin: 20px 0 5px;
+  color: #fff;
+  border: none;
+  background-color: $accent-color;
+  font-family: $font-stack-heading;
+  padding: 5px 10px; 
+}

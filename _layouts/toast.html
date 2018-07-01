@@ -24,6 +24,8 @@ layout: default
       <div class="pure-u-lg-1-2 pure-u-sm-1">
         <p class="post-meta">Poem copyright © {{ page.date | date: '%Y' }} by {{ page.poet }}. Poem printed by permission of {{ page.poet }}. <br />Introduction copyright © {{ page.date | date: '%Y' }} by Solo Press{% if page.author %}, written by {{ page.author }}{% endif %}.</p>
         <p class="post-meta">We are currently not accepting submissions.</p>
+        <hr /> 
+        {% include toast-info.inc %}
       </div>
     </div>
   </div>
