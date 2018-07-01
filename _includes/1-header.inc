@@ -20,7 +20,7 @@
       <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
   <!--<![endif]-->
   <script src="https://use.fontawesome.com/daee885143.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Vollkorn" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
 
   <script src="/js/vendor/modernizr-2.6.2.min.js"></script>

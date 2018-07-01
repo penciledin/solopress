@@ -49,9 +49,8 @@ body { background-color:$background-color; }
 }
 
 #menu .logo {
-  position:absolute;
-  top: -40px;
-  left:10px;
+  margin-top: -40px;
+  margin-left: 10px;
 }
 #main section:first-child {
   padding-top: 110px;
@@ -95,7 +94,8 @@ body { background-color:$background-color; }
 #main section { padding:20px; }
 #main section .row { max-width:1200px; margin-left:auto; margin-right:auto; }
 
-h1, h2, h3, h4, p, ul, blockquote, .pure-g [class*=pure-u] { font-family:$font-stack; }
+h1, h2, h3, h4, .pure-menu ul { font-family: $font-stack-heading; }
+p, ul, blockquote, .pure-g [class*=pure-u], table { font-family:$font-stack; }
 h1, h2 { margin:5px -5px; padding:5px; }
 // h1 { background:rgba(255,255,255,0.3); }
 // h2 { background:rgba(255,255,255,0.1); }
