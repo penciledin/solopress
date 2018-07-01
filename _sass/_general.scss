@@ -99,7 +99,7 @@ p, ul, blockquote, .pure-g [class*=pure-u], table { font-family:$font-stack; }
 h1, h2 { margin:5px -5px; padding:5px; }
 // h1 { background:rgba(255,255,255,0.3); }
 // h2 { background:rgba(255,255,255,0.1); }
-p { font-size:19px; }
+p { font-size:19px; line-height: 1.8em; }
 blockquote { font-size:22px; font-style:italic; }
 a.block { text-decoration:none; cursor:auto; color:#fff; }
 a.block:hover .learnmore,
