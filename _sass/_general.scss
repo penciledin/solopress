@@ -65,7 +65,9 @@ body { background-color:$background-color; }
         position:relative;
         border-top:none;
         margin-bottom: 30px;
-
+        .logo {
+          top: -40px;
+        }
         ul {
           text-align: center;
           padding: 0 0 10px 0;
