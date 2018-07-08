@@ -26,7 +26,7 @@ layout: default
             <td>Column {{ toast.number }}</td>
             <td>{{ toast.date | date: '%B %-d, %Y' }}</td>
             <td>{% if toast.poet %}{{ toast.poet }}{% endif %}</td>
-            <td><a href="{{ toast.url | prepend: site.baseurl }}" class="block include-link">{{ toast.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></td>
+            <td><a href="{{ toast.url | prepend: site.baseurl }}" class="include-link">{{ toast.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></td>
           </tr>
           {% endfor %}
         </table>

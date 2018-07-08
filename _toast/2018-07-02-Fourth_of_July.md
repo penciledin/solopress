@@ -9,6 +9,7 @@ description: Every year, the Fourth of July tends to have different meaning for 
 ---
 
 <img src="/img/toast/001-fourth-of-july.jpg" />
+
 *Photo courtesy of Corn Goddess*
 
 ## Fourth of July

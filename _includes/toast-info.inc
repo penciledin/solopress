@@ -21,8 +21,8 @@
 <p class="post-meta">We only use your email address to send Toast, not for any nefarious purposes.</p>
 <!--End mc_embed_signup-->
 <ul>
-  <li><strong>Glenna Luschei</strong>, Abiding Publisher and Editor Emeritus</li>
-  <li><strong>Benjamin Daniel Lawless</strong>, Editor in Chief</li>
-  <li><strong>Tom Harrington</strong>, International Editor</li>
-  <li><strong>Rena Ferro</strong>, Managing Editor</li>
+  <li><strong>Glenna Luschei</strong>, Abiding Publisher and Editor Emeritus</li>
+  <li><strong>Benjamin Daniel Lawless</strong>, Editor in Chief</li>
+  <li><strong>Tom Harrington</strong>, International Editor</li>
+  <li><strong>Rena Ferro</strong>, Managing Editor</li>
 </ul>
