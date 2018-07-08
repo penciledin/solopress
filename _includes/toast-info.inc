@@ -18,7 +18,7 @@
     </div>
 </form>
 </div>
-<p class="post-meta">We only use your email address to send Toast, not for any nefarious purposes.</p>
+<p class="post-meta">We only use your email address to send Toast, not for any nefarious purposes.</p>
 <!--End mc_embed_signup-->
 <ul>
   <li><strong>Glenna Luschei</strong>, Abiding Publisher and Editor Emeritus</li>
