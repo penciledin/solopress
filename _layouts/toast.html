@@ -6,7 +6,7 @@ layout: default
     <div class="pure-g">
       <div class="pure-u-lg-1-2 pure-u-sm-1">
         <h1><em>{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</em> by {{ page.poet }}</h1>
-        <p class="post-meta">Column {{ page.number }}. {{ page.date | date: '%B %-d, %Y' }}</p>
+        <p class="post-meta">Column {{ page.number }}. {{ page.date | date: '%B %-d, %Y' }}. Introduction by {{ page.author }}.</p>
       </div>
     </div>
   </div>
