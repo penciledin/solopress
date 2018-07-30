@@ -2,7 +2,7 @@
 layout: toast
 title: Swirling Stardust into the Universe
 author: Benjamin Daniel Lawless
-poet: Ivan BrownOtter
+poet: Ivan BrownOtter
 date: 2018-07-28 8:50:00
 number: 005
 description: |
