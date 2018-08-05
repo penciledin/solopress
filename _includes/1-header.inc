@@ -31,6 +31,7 @@
 	<meta property="og:description" content="{{ page.description }}" />
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
       <meta property="og:image" content="{% if page.cover-img %}{{ site.url }}{{ page.cover-img }}{% else if page.number && page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/img/og-main.png{% endif %}" />
+      <meta property="og:type" content="website" />
       <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
       </head>
