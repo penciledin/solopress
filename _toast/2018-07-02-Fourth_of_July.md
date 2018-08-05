@@ -6,11 +6,9 @@ poet: Corn Goddess
 date: 2018-07-01 12:30:00
 number: 001
 description: Every year, the Fourth of July tends to have different meaning for all of us. This poem by Corn Goddess shows that despite history and current events (or maybe because of them), it’s never a bad idea to just keep dancing.
+image: /img/toast/001-fourth-of-july.jpg
+image-caption: Photo courtesy Corn Goddess
 ---
-
-<img src="/img/toast/001-fourth-of-july.jpg" />
-
-*Photo courtesy of Corn Goddess*
 
 ## Fourth of July
 

@@ -6,6 +6,8 @@ poet: Brian Landis
 date: 2018-07-08 8:50:00
 number: 002
 description: My son turned five last month. I’m still five, too. Still five, seventeen, twenty eight and many other numbers. Here's one by Brian Landis — it feels like a photo album as much as a poem.
+image: /img/toast/002-in-the-canyon.jpg
+image-caption: Photo courtesy Brian Landis — the entrance to The Narrows at Zion
 notes:
   It's summer again, a time of warmth and laughter. This poem by Brian Landis is a reminder that every beginning is just another moment in transit.
   With every passing year, I realize I'm changing in ways I could never have predicted. Some of it is gradual, some of it as abrupt as a car accident.
@@ -13,10 +15,6 @@ notes:
   My son doesn’t think it’s cute when I tell him I'm five just like him.
 
 ---
-
-<img src="/img/toast/002-in-the-canyon.jpg" />
-
-*Photo courtesy Brian Landis — the entrance to The Narrows at Zion*
 
 ## In The Canyon
 
