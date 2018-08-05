@@ -11,13 +11,11 @@ description: |
   “I think of children sort of like Voyager probes, except instead of sending them out into space you send them forward in time. They carry messages from your civilization inside them, on into the weirdness of the future.”
 
   Here's one by Ivan BrownOtter, and it’s for the teachers and the children. It’s for you, too; you who have stories yearning to be told.
+image: /img/toast/005-Swirling-Stardust-into-the-Universe.jpg
+image-caption: Photo courtesy Brian Landis
 notes:
 
 ---
-
-<img src="/img/toast/005-Swirling-Stardust-into-the-Universe.jpg" />
-
-*Photo courtesy Brian Landis*
 
 ## Swirling Stardust into the Universe
 
