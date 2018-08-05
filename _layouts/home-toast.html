@@ -15,16 +15,16 @@ layout: default
       <div class="pure-u-lg-1-2 pure-u-sm-1">
         <table class="toast-list pure-table pure-table-horizontal">
           <thead class="toast-head">
-            <th>Number</td>
-            <th>Date</td>
-            <th>Poet</td>
-            <th>Title</td>
+            <th></th>
+            <th>Date</th>
+            <th>Poet</th>
+            <th>Title</th>
           </thead>
 
           {% for toast in site.toast reversed %}
           <tr class="toast-item">
-            <td>Column {{ toast.number }}</td>
-            <td>{{ toast.date | date: '%B %-d, %Y' }}</td>
+            <td align="center">{{ toast.number }}</td>
+            <td>{{ toast.date | date: "%m/%d/%Y" }}</td>
             <td>{% if toast.poet %}{{ toast.poet }}{% endif %}</td>
             <td><a href="{{ toast.url | prepend: site.baseurl }}" class="include-link">{{ toast.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></td>
           </tr>
