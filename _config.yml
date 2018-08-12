@@ -18,6 +18,7 @@ paginate: 15
 paginate_path: "/blog/page:num/"
 
 excerpt_separator: <!--more-->
+future: true
 
 collections:
   books:

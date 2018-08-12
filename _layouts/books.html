@@ -8,11 +8,15 @@ layout: default
 				<h1>{{ page.title }}</h1>
 				<h2>by {{ page.author }}</h2>
 				<div class="details">
+					<p class="price">
 					{% if page.price %}
-            <p class="price">{{ page.price }}<br />
-            <a class="perfundo__link button" href="#purchase-{{ page.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
-          {% else if page.amazon %}<p class="price"><a href="{{ page.amazon }}">Purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a></p>
+            {{ page.price }}<br />{% endif %}
+            <!-- <a class="perfundo__link button" href="#purchase-{{ page.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p> -->
+          {% if page.amazon %}<a href="{{ page.amazon }}">Purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a> {% endif %}
+					{% if page.purchase-link %}
+						<a href="{{ page.purchase-link }}">Purchase from the publisher <span class="fa fa-chevron-circle-right"></span></a>
           {% endif %}
+					</p>
           <p>{% if page.pages %}{{ page.pages }}<br />{% endif %}Published {{ page.date | date: "%Y" }}
 					{% if page.press %}<br />{{ page.press }}{% endif %}</p>
         </div>
