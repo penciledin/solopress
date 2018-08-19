@@ -13,12 +13,7 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
-  <!--[if lte IE 8]>
-      <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-      <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-  <!--<![endif]-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/grids-responsive-min.css">
   <script src="https://use.fontawesome.com/daee885143.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Dosis|Vollkorn" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
