@@ -10,6 +10,7 @@ description: |
 image: /img/toast/013-Moving-Days.jpg
 image-caption: Photo courtesy Brian Landis
 notes:
+  The seasons change, and us with them.
 
 
 ---
