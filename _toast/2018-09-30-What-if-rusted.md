@@ -10,7 +10,7 @@ description: |
 image: /img/toast/014-What-if-rusted.jpg
 image-caption: Photo courtesy Brian Landis
 notes:
-
+  Should it be painted, or left stained?
 
 
 ---
