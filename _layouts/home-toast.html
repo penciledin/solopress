@@ -24,7 +24,7 @@ layout: default
           {% for toast in site.toast reversed %}
           <tr class="toast-item">
             <td align="center">{{ toast.number }}</td>
-            <td>{{ toast.date | date: "%m/%d/%Y" }}</td>
+            <td>{{ toast.date | date: "%-m/%-d/%y" }}</td>
             <td>{% if toast.poet %}{{ toast.poet }}{% endif %}</td>
             <td><a href="{{ toast.url | prepend: site.baseurl }}" class="include-link">{{ toast.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></td>
           </tr>

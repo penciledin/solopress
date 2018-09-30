@@ -4,7 +4,7 @@ title: To God’s Savior, Norman
 author: Benjamin Daniel Lawless
 poet: Adele Maze
 date: 2018-08-26 8:50:00
-number: 009
+number: 9
 description: |
   It’s odd how much someone’s life changes after they die. When my father passed, my family told stories of a different man than the one I knew. Even the memorial service didn’t really fit him. It was more for those of us still here.
 image: /img/toast/009-To-Gods-Savior-Norman.jpg

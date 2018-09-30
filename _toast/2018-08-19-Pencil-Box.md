@@ -4,7 +4,7 @@ title: Pencil Box
 author: Benjamin Daniel Lawless
 poet: Kelli Grinich
 date: 2018-08-19 8:50:00
-number: 008
+number: 8
 description: |
   My son said his first day of kindergarten was “the best day ever,” mostly because “they didn’t make me take a nap!” He is easing into the pleasure of carrying around a zippered pencil pouch. Perhaps soon he will appreciate them as Kelli Grinich does in today’s poem.
 image: /img/toast/008-Pencil-Box.jpg

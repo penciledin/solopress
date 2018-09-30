@@ -4,7 +4,7 @@ title: Talking To My Dog On Way To Taos
 author: Benjamin Daniel Lawless
 poet: Tom Harrington
 date: 2018-09-18 08:30:00
-number: 012
+number: 12
 description: |
   If our pets ever develop the gift of language, I hope their poems are as kind as Tom Harrington’s ode to his dear friend, Ginger.
 image: /img/toast/012-Talking-To-My-Dog-On-The-Way-To-Taos.jpg
