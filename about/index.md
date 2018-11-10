@@ -3,9 +3,14 @@ layout: about
 title: About Solo Press, Established 1966
 description: Solo Press has been publishing poetry since 1966.
 ---
-Its first magazine, *Café Solo*, was released by founder and publisher, Glenna Luschei in 1969.  Since then, Solo has gone on to publish four literary magazine series:  *Café Solo*, *Solo*, *Solo Café*, and *Solo Novo*.
+
+Solo Press has been publishing poetry and short prose for over fifty years, with a host of magazines and journals featuring new writers and the works of established writers. In continuation of this legacy, we present to you <a href="/toast/">Toast</a>, an email newsletter showcasing current poetry.
 
 <!-- more -->
+<hr />
+<h2>History</h2>
+
+Solo Press’ first magazine, *Café Solo*, was released by founder and publisher, Glenna Luschei in 1969.  Since then, Solo has gone on to publish four literary magazine series:  *Café Solo*, *Solo*, *Solo Café*, and *Solo Novo*.
 
 Solo launched the *Solo* journal series in 1996. Jackson Wheeler and David Oliveira anchored the editorial team that produced seven issues across eight years. Poet artists illustrated *Solo* covers for each of the seven-issue series that concluded its run in 2004.
 

@@ -13,14 +13,9 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
-  <!--[if lte IE 8]>
-      <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-      <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-  <!--<![endif]-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/grids-responsive-min.css">
   <script src="https://use.fontawesome.com/daee885143.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Vollkorn" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
 
   <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
@@ -30,7 +25,8 @@
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:description" content="{{ page.description }}" />
       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-      <meta property="og:image" content="{% if page.cover-img %}{{ site.url }}{{ page.cover-img }}{% else %}{{ site.url }}/img/og-main.png{% endif %}" />
+      <meta property="og:image" content="{% if page.cover-img %}{{ site.url }}{{ page.cover-img }}{% else if page.number && page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/img/og-main.png{% endif %}" />
+      <meta property="og:type" content="website" />
       <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
       </head>
