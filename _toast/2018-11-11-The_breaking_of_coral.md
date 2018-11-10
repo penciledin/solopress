@@ -7,8 +7,8 @@ date: 2018-11-11 09:30:00
 number: 20
 description: |
   Growing up in a California beach town, I feel so intimately connected to this one by Marnie L. Parker. The brilliance of this poem is wrapped in the grimy details, the character’s inner life honestly reflected in the setting.
-image: /img/toast/019-A-warm-wind.jpg
-image-caption: Photo Courtesy Brian Landis
+image: /img/toast/020-The-breaking-of-coral.jpg
+image-caption: Photo Courtesy Benjamin Daniel Lawless
 notes:
   Small pieces, once beautiful, begin to break.
 
