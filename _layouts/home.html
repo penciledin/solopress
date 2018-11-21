@@ -5,8 +5,14 @@ layout: default
 <section class="hero">
     <div class="row">
         <div class="details">
-            <p>Solo Press has been publishing poetry since 1966.</p>
-            <p><a href="/about/">Learn more <span class="fa fa-chevron-circle-right"></span></a></p>
+            <h3>Solo Press has been publishing poetry since 1966.</h3>
+            <p><a href="/about/">Learn more about Solo Press <span class="fa fa-chevron-circle-right"></span></a></p>
+            <h3>Join us for a <a href="/toast/">Toast</a>, our new weekly poetry newsletter. </h3>
+            <p>Read the latest issue of Toast: <br />
+              {% assign toasts = site.toast | sort: date | reverse %}
+                {% for toast in toasts reversed limit:1 %}
+                  <a href="{{ toast.url }}">{{ toast.title }}</a> by {{ toast.poet }}
+                {% endfor %}</p>
         </div>
     </div>
 </section>
@@ -31,11 +37,15 @@ layout: default
   					<h2>by {{ book.author }}</h2>
   				</a>
   				<div class="details">
-            {% if book.price %}
-              <p class="price">{{ book.price }}<br />
-              <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p>
-            {% else if book.amazon %}<p class="price"><a href="{{ book.amazon }}">Purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a></p>
+            <p class="price">
+  					{% if book.price %}
+              {{ book.price }}<br />{% endif %}
+              <!-- <a class="perfundo__link button" href="#purchase-{{ book.id | slugify }}">Buy now <span class="fa fa-chevron-circle-right"></span></a></p> -->
+            {% if book.amazon %}<a href="{{ book.amazon }}">Purchase on Amazon <span class="fa fa-chevron-circle-right"></span></a> {% endif %}
+  					{% if book.purchase-link %}
+  						<a href="{{ book.purchase-link }}">Purchase from the publisher <span class="fa fa-chevron-circle-right"></span></a>
             {% endif %}
+  					</p>
             <p>{% if book.pages %}{{ book.pages }}, <br />{% endif %}Published {{ book.date | date: "%Y" }}</p>
           </div>
           <p>{{ book.description }}</p>

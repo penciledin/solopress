@@ -3,14 +3,14 @@
 
 # TEAM
 
-    Benjamin Daniel Lawless 
-    	-- Owner, Graphic Designer, Web Developer 
+    Benjamin Daniel Lawless
+    	-- Editor in Chief, Web Master
     	-- @penciledin
 
 # THANKS
 
-    -- Jeanie Greensfelder and Ivan BrownOtter for being the first authors to agree to let me sell their work on my site
-    
+    Glenna Luschei
+
 
 # TECHNOLOGY COLOPHON
 
