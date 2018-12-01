@@ -2,7 +2,7 @@
 layout: toast
 title: Love, You Done Me Wrong
 author: Benjamin Daniel Lawless
-poet: Dotty Le Meiux
+poet: Dotty LeMieux
 date: 2018-11-25 09:30:00
 number: 22
 description: |
