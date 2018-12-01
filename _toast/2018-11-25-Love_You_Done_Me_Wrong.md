@@ -6,7 +6,7 @@ poet: Dotty LeMieux
 date: 2018-11-25 09:30:00
 number: 22
 description: |
-  It’s a tragedy to leave things unsaid, but it hurts so much more when you have to reach for that connection beyond the grave. Here, Dotty Le Meiux opens the windows to her memories of the Rolling Stone journalist.
+  It’s a tragedy to leave things unsaid, but it hurts so much more when you have to reach for that connection beyond the grave. Here, Dotty LeMieux opens the windows to her memories of the Rolling Stone journalist.
 image: /img/toast/022-Love_You_Done_Me_Wrong.jpg
 image-caption: Photo Courtesy [Joshua Newton](https://unsplash.com/photos/GMjmjBi579I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 notes:
@@ -15,7 +15,7 @@ notes:
 
 ---
 ## Love, You Done Me Wrong
-**by Dotty Le Meiux**
+**by Dotty LeMieux**
 
 > He had this lanky Texas stance, a big mouth with a big smile, and attired as he usually was, in boots, jeans and some goofy '40s shirt, faintly squiffed and glaring at you through those thick Coke-bottle glasses, he was a caricaturist's delight: all eyes, mouth, angles, sweetness and ferocious intelligence.  
 — Dave Hickey, [Grover Lewis, an Appreciation](http://articles.latimes.com/1995-06-25/books/bk-16812_1_grover-lewis), L.A. Times, 1995
