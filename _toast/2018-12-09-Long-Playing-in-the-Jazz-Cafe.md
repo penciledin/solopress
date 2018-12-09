@@ -7,7 +7,7 @@ date: 2018-12-09 09:30:00
 number: 24
 description: |
   A paradise for some. For others, another day at work.
-image: /img/toast/023-The_Horse_As_The_Letter_L.jpg
+image: /img/toast/024-Long-Playing-in-the-Jazz-Cafe.jpg
 image-caption: Photo Courtesy Brian Landis
 notes: Two faces long playing simultaneous gyrations.
 
