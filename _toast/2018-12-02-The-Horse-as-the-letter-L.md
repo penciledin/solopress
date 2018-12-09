@@ -6,13 +6,13 @@ poet: Mark Sanders
 date: 2018-12-02 09:30:00
 number: 23
 description: |
-  Of everything written about love, lately I’ve been most interested in it’s long game. The slow simmer of a stew on the stove. Here’s one by Mark Sanders, truth and care in equal measure.
+  Of everything written about love, lately I’ve been most interested in its long game. The slow simmer of a stew on the stove. Here’s one by Mark Sanders, truth and care in equal measure.
 image: /img/toast/023-The_Horse_As_The_Letter_L.jpg
 image-caption: Photo Courtesy Brian Landis
 notes: Love is true as oak, true as birds that lift.
 
 ---
-
+**Mark Sanders**
 # The Horse as the Letter L
 
 Love moves like something righteous and eternal   
