@@ -3,7 +3,7 @@ layout: toast
 title: New Constellations
 poet: Tricia Knoll
 date: 2018-12-23 09:30:00
-number: 26
+number: 27
 description: |
   Each rotation around the sun I vow the same thing: “this is the year I chart my own course. This time it will be different.” But I’m already different, by the very nature of time. Maybe this will be the year I am comfortable with myself.
 image: /img/toast/027-New-Constellations.jpg
