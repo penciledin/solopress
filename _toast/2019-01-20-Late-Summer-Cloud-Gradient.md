@@ -5,7 +5,7 @@ poet: Victoria Sepulveda
 date: 2019-01-20 09:30:00
 number: 30
 description: |
-  California has had it’s fair share of fires lately. Families displaced, homes lost. As I’ve moved through this last year, it has been not just a time of loss but also a chance for new starts; planting, replanting, transplanting. May you all be safe in this unpredictable world.
+  California has had its fair share of fires lately. Families displaced, homes lost. As I’ve moved through this last year, it has been not just a time of loss but also a chance for new starts; planting, replanting, transplanting. May you all be safe in this unpredictable world.
 image: /img/toast/030-Late-Summer-Cloud-Gradient.jpg
 image-caption: Photo Courtesy Brian Landis
 notes: It’s like putting the seeds to bed.
