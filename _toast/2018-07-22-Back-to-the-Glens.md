@@ -3,7 +3,7 @@ layout: toast
 title: Back to the Glens
 author: Tom Harrington
 poet: Paul Haller
-date: 2018-07-08 8:50:00
+date: 2018-07-22 8:50:00
 number: 004
 description: |
   Many years ago I read a talk that Paul Haller gave about Hospice work. He said “you help others by helping yourself, and you help yourself by helping others.” It was a healing balm for my own Hospice work.  
