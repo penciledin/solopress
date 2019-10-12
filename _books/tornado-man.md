@@ -8,8 +8,8 @@ cover-img: /img/books/tornado-man_1.jpg
 press: Solo Press
 date: 2018-10-20 13:00
 pages: 47 pages
-amazon: https://amzn.to/2SqSQ8g
-
+amazon: https://amzn.to/33pJK0u
+price: $9.99
 ---
 
 ![Back cover](/img/books/tornado-man_2.png)
