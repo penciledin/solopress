@@ -9,7 +9,7 @@ cover-img: /img/books/zen-duende_1.jpg
 press: Presa Press
 date: 2016-12-01 10:00
 paypal:
-amazon: http://amzn.to/2wMhIfr
+amazon: https://amzn.to/31h0qG5
 pages: 46 pages
 ---
 

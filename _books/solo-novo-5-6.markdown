@@ -6,7 +6,7 @@ description: Poetry anthology, collecting all of <em>Toast’s</em> run and more
 cover-img: /img/books/solo-novo-5-6_1.jpg
 press: Solo Press
 date: 2019-04-15 12:00
-amazon: https://amzn.to/2DjlP8d
+amazon: https://amzn.to/31dunGR
 pages: 149 pages
 price: $15.00
 ---

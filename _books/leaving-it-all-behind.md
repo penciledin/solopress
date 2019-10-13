@@ -6,7 +6,7 @@ description: In this collection, Luschei’s poems somehow keep their feet in tw
 cover-img: /img/books/leaving-it-all-behind_1.jpg
 press: Presa Press
 date: 2011-01-01 12:00
-amazon: http://amzn.to/2yn5DyV
+amazon: https://amzn.to/31anNB4
 ---
 
 Glenna Luschei’s poems are constructed of both equal parts of both expressionism and impressionism.  Her special ability is to synthesize the external and internal worlds.

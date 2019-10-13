@@ -7,7 +7,7 @@ description: |
 cover-img: /img/books/singing-and-dying_1.jpg
 press: Penciled In
 date: 2016-12-01 13:00
-amazon: http://amzn.to/2yKGZLd
+amazon: https://amzn.to/32eC9S7
 pages: 92 pages
 ---
 > Glenna Luschei’s voice is a brilliant gift! She sings the richness of days, the glorious eloquence of reckonings, hard places never ignored – full of grace and love, wondrous revelation, and all we must let go. Walk into the perfectly lit room of these poems and know you’re home.  
