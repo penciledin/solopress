@@ -1,6 +1,6 @@
 ---
 layout: news
-title: <em>Psalms of Cinder & Silt</em> book launch and poetry reading
+title: Psalms of Cinder & Silt book launch and poetry reading
 author: Solo Press
 date: 2019-11-04 20:33
 ---
